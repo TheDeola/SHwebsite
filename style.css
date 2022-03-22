@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(37, 50, 91);
+    padding: 0px 50px;
+    margin: 20px 200px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans';
+}
+header, footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+.SH {
+    color: rgb(54, 128, 206);
+    font-weight: 700;
+}
+h1{
+    font-size: 50px;
+}
+p {
+    font-size: x-large;
+    line-height: 40px;
+}
+.Top li {
+    display: inline;
+    padding: 0 27px;
+}
+.Left li {
+    float:left;
+}
+.Top button {
+    border:2px solid rgb(37, 50, 91);
+    background-color: rgb(64, 73, 119);
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 10px;
+    color: white;
+    width: 120px;
+}
+.Main button {
+    border:3px solid rgb(37, 50, 91);
+    background-color: rgb(64, 73, 119);
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 50px;
+    color: white;
+    width: 150px;
+}
+.Main button {
+    margin-top: 40px;
+}
+.Signin {
+    border: none;
+    background-color: rgb(36, 49, 89);
+    padding: 15px 32px;
+    border-radius: 30px;
+    color: white;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.Login {
+    border: none;
+    background-color: rgb(77, 159, 234);
+    padding: 15px 32px;
+    border-radius: 30px;
+    color: white;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.Main {
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.SignUp {
+    float: right;
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    border: 3px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    color: rgb(37, 50, 91)
+}
+.SignUp li {
+    padding: 8px;
+}
+input {
+    padding: 10px;
+    border-radius: 20px;
+}
+.Space {
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+}
+.Account {
+    color: rgb(129, 212, 201);
+}
